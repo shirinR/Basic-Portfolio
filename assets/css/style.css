@@ -1,0 +1,16 @@
+#main_header{
+  color: #777777;
+  background-color: #4aaaa5;
+  font-size: 40px;
+  font-weight: 10px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+  width: 30%;
+}
+
+#inside_header{
+  color:#4aaaa5;
+  font-size: 40px;
+  font-weight: 10px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
