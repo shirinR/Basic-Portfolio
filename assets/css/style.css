@@ -1,15 +1,9 @@
-/** TODO: activity image in portfolio should shift right a little
- Also connect with me images
- Also background-image is not showing*/
-
-
 body {
     color: #777;
     padding: 0;
     margin: 0;
-    background-color: #efefef;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    /*background-image: url("assets/image/concrete_seamless.png");*/
+    background-image: url("../image/concrete_seamless.png");
 }
 
 * {
@@ -173,23 +167,19 @@ h6 {
     clear: both;
 }
 
-.content-sidebar .social-links li {
-    float: left;
+.content-sidebar .social-links {
+    display: flex;
 }
 
-.content-sidebar .social-links li:first-child {
-    margin-left: 0;
-}
-
-.content-sidebar .social-links li:last-child {
-    margin-right: 0;
+#stackoverflow {
+    margin-right: -15px;
 }
 
 .content-sidebar .social-links img{
     vertical-align: baseline;
-    margin-left: 15px;
     width: 57px;
     height: 57px;
+    margin-right: 24px;
 }
 
 .profile_img{
@@ -220,6 +210,7 @@ h6 {
     height: 200px;
     position: relative;
 }
+
 .content_img::after{
     content: "";
     display: table;
@@ -232,15 +223,12 @@ h6 {
     width: 280px;
     height: 200px;
     margin-bottom: 40px;
-    margin-right: 10px;
-    /*margin-left: 10px;
-    padding-left: 10px;
-    padding-right: 20px;*/
+    margin-right: 5px;
 }
 
-.activity_image{
-  /*margin-left:0;
-  margin-right: 0;*/
+.box_2, .box_4{
+    margin-right: 0;
+    margin-left: 33px;
 }
 
 .activity_title{
